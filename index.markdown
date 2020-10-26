@@ -4,5 +4,4 @@
 
 layout: home
 ---
-
-{% t HolaMundo %}
+Prueba
