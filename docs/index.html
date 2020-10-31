@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html>
+
 <head>
-
+    <title>Coderic</title>
 </head>
-<body class="stretched">
-    <div id="wrapper" class="clearfix">
-        <div id="top-bar">
-            <div class="container clearfix">
-                <div id="top-menu">
-hghgh
-                </div>
-                <div id="top-social">
-                </div>
-            </div>
-        </div>
 
-        <main id="content">
-            <p>Prueba</p>
-
-<p>Hola Mundo</p>
-
-        </main>
-
-        <div class="clear"></div>
-        <div id="copyrights" class="copyrights-dark">
-            <div class="container clearfix">
-                <div class="col_half">
-                    <p>Copyrights <a href="https://coderic.net">Coderic</a> 2004-2020 © Todos los derechos reservados.</p>
-                </div>
-                <div class="col_half col_last tright">
-hghghh
-                </div>
-            </div>
-        </div>
-        <div id="gotoTop" class="icon-angle-up"></div>
-        <script type="text/javascript" src="https://coderic.net/assets/coderic/js/custom.js"></script>
+<body>
+    <a href="https://coderic.net/es/" hreflang="es">Español</a>
+    <a href="https://coderic.net/en/" hreflang="en">English</a>
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
+        window.location.replace("https://coderic.net/" + userLang.substr(0, 2) + "/")
+    </script>
 </body>
+
 </html>
